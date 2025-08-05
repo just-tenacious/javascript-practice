@@ -44,3 +44,482 @@
 
 ---
 
+1.3 Variables, Data Types, and Operators (30 Practice Questions)
+
+### 🔹 Declaring Variables
+
+1. Declare a variable using `let` to store your name.
+2. Declare a `const` variable for your birth year.
+3. Try reassigning a `const` variable and observe the error.
+4. Declare a variable using `var` and reassign it.
+5. Create three variables: one for a string, number, and boolean.
+
+### 🔹 Understanding Data Types
+
+6. Log the `typeof` for a string variable.
+7. Check the type of `null` using `typeof`.
+8. Assign `undefined` to a variable and log its type.
+9. Create a `Symbol` and display its type.
+10. Create a variable with a `BigInt` and use it in a console log.
+
+### 🔹 Working with Strings
+
+11. Concatenate two strings using the `+` operator.
+12. Use template literals to create a sentence using variables.
+13. Use `.toUpperCase()` on a string.
+14. Use `.includes()` to check if a word exists in a sentence.
+15. Use `.length` to check the number of characters in a string.
+
+### 🔹 Arithmetic Operators
+
+16. Add, subtract, multiply, and divide two numbers.
+17. Use the modulus operator to find the remainder of a division.
+18. Create an expression using parentheses to control precedence.
+19. Increment a variable using `++`.
+20. Decrement a variable using `--`.
+
+### 🔹 Comparison Operators
+
+21. Use `==` to compare `5` and `'5'` and explain the result.
+22. Use `===` to compare `5` and `'5'` and explain the result.
+23. Compare two strings using `>`.
+24. Use `!==` to compare two values.
+25. Use logical `&&` and `||` in an if condition.
+
+### 🔹 Practical Exercises
+
+26. Create a variable for temperature in Celsius and convert it to Fahrenheit.
+27. Write a program to check if a number is even or odd.
+28. Create a variable to store age and check if the user is an adult.
+29. Store a product’s price and calculate the final cost after 18% tax.
+30. Swap values of two variables using a temporary variable.
+
+---
+
+1.4 String and Math Operations (30 Practice Questions)
+
+---
+
+### 🔹 String Operations (Basics)
+
+1. Declare a string variable with your full name.
+
+2. Find the length of a string using `.length`.
+
+3. Convert a string to uppercase using `.toUpperCase()`.
+
+4. Convert a string to lowercase using `.toLowerCase()`.
+
+5. Extract the first 5 characters from a string using `.slice()`.
+
+6. Extract a portion of a string using `.substring(start, end)`.
+
+7. Replace a word in a string using `.replace()`.
+
+8. Remove leading/trailing spaces using `.trim()`.
+
+9. Use `.charAt()` to get the character at index 3.
+
+10. Use `.includes()` to check if a string contains a substring.
+
+---
+
+### 🔹 Advanced String Manipulations
+
+11. Use `.split()` to turn a sentence into an array of words.
+
+12. Join an array of words into a single string with `.join()`.
+
+13. Use `.startsWith()` and `.endsWith()` on a string.
+
+14. Repeat a string 3 times using `.repeat()`.
+
+15. Use `.indexOf()` to find the position of a character in a string.
+
+16. Check whether an email contains an `@` symbol.
+
+17. Convert `"hello world"` into `"Hello World"` (title case).
+
+18. Count how many times the letter "a" appears in a string.
+
+19. Reverse a string using built-in methods.
+
+20. Mask all characters in a credit card string except the last 4.
+
+---
+
+### 🔹 Math Object Operations
+
+21. Use `Math.round()` to round a decimal number.
+
+22. Use `Math.floor()` to round down.
+
+23. Use `Math.ceil()` to round up.
+
+24. Find the maximum and minimum from a set of numbers using `Math.max()` and `Math.min()`.
+
+25. Generate a random number between 0 and 1 using `Math.random()`.
+
+26. Generate a random integer between 1 and 10.
+
+27. Use `Math.pow(a, b)` to calculate powers.
+
+28. Use `Math.sqrt()` to calculate the square root.
+
+29. Use `Math.abs()` to convert a negative number to positive.
+
+30. Use `Math.trunc()` to remove decimal part of a number.
+
+---
+
+1.5 Objects, Arrays, and JSON (30 Practice Questions)
+
+---
+
+### 🔹 Objects (Basics)
+
+1. Create an object named `person` with properties: name, age, and city.
+
+2. Access and log the `name` property using dot notation.
+
+3. Access and log the `age` property using bracket notation.
+
+4. Add a new property `email` to the `person` object.
+
+5. Update the `city` property of the object.
+
+6. Delete the `email` property from the object.
+
+7. Check if the object has a `name` property using `hasOwnProperty()`.
+
+8. Loop through an object using `for...in`.
+
+9. Use `Object.keys()` to get all the keys of an object.
+
+10. Use `Object.values()` to get all the values.
+
+---
+
+### 🔹 Nested Objects & Arrays
+
+11. Create an object `student` with a nested object `grades` (e.g., { math: 90, science: 95 }).
+
+12. Access the `science` grade using dot notation.
+
+13. Create an array of objects (e.g., a list of books with title and author).
+
+14. Loop through the array of objects and log each title.
+
+15. Add a new book to the array using `.push()`.
+
+16. Remove the last book using `.pop()`.
+
+17. Find a book by title using `.find()`.
+
+18. Filter books by a specific author using `.filter()`.
+
+19. Sort the array of books alphabetically by title.
+
+20. Update the author of a book based on its title.
+
+---
+
+### 🔹 Arrays (Basics)
+
+21. Create an array of your favorite movies.
+
+22. Add a new movie to the beginning using `.unshift()`.
+
+23. Remove the first movie using `.shift()`.
+
+24. Check if a movie exists in the array using `.includes()`.
+
+25. Get the index of a movie using `.indexOf()`.
+
+26. Reverse the array of movies.
+
+27. Use `.slice()` to get the first 3 movies.
+
+28. Use `.splice()` to remove and replace a movie.
+
+29. Join the array into a single string with `.join(', ')`.
+
+30. Loop through the array using `.forEach()` to log each movie.
+
+---
+
+### 🔹 Bonus: JSON Practice
+
+* Convert an object to a JSON string using `JSON.stringify()`.
+* Parse a JSON string back into an object using `JSON.parse()`.
+
+---
+
+1.6 Date, Time, and Built-in Objects (30 Practice Questions)
+
+---
+
+### 🔹 Working with `Date`
+
+1. Create a new `Date` object for the current date/time.
+
+2. Create a `Date` object for a specific date (e.g., your birthday).
+
+3. Get the current year using `.getFullYear()`.
+
+4. Get the current month (note: 0-indexed) using `.getMonth()`.
+
+5. Get the current day of the week using `.getDay()`.
+
+6. Get the current date (day of the month) using `.getDate()`.
+
+7. Get the current hours using `.getHours()`.
+
+8. Get the current minutes using `.getMinutes()`.
+
+9. Get the current seconds using `.getSeconds()`.
+
+10. Format a date as `DD/MM/YYYY`.
+
+---
+
+### 🔹 Modifying `Date` Values
+
+11. Set the year of a `Date` object to 2050.
+12. Set the month of a `Date` object to December (11).
+13. Set the date to the 1st of the month.
+14. Create a function that returns the number of days left in the year.
+15. Calculate the number of days between two dates.
+
+---
+
+### 🔹 Time Calculations
+
+16. Get the current timestamp using `.getTime()`.
+17. Create a countdown timer using `setInterval()`.
+18. Create a digital clock that updates every second.
+19. Calculate the difference in milliseconds between two timestamps.
+20. Convert a timestamp into a readable date.
+
+---
+
+### 🔹 Built-in Objects: `Math`
+
+21. Generate a random number between 0 and 100.
+22. Find the square root of 81.
+23. Use `Math.max()` to find the largest number in an array.
+24. Round a number to the nearest integer using `Math.round()`.
+25. Generate a random integer between two given values.
+
+---
+
+### 🔹 Built-in Objects: `String`, `Number`, `Boolean`
+
+26. Convert a string to a number using `Number()`.
+27. Check if a value is a number using `isNaN()`.
+28. Convert a number to a string using `.toString()`.
+29. Use `Boolean()` to check the truthiness of different values (e.g., `Boolean(0)`, `Boolean("text")`).
+30. Use `parseInt()` and `parseFloat()` to convert string numbers.
+
+---
+
+1.7 Control Flow: `if/else`, `switch-case` (30 Practice Questions)
+
+---
+
+### 🔹 Basic `if/else` Practice
+
+1. Write an `if` statement to check if a number is positive.
+
+2. Check if a number is even or odd using `if/else`.
+
+3. Use `if/else if/else` to grade a student based on marks (e.g., A, B, C).
+
+4. Check if a person is eligible to vote (age ≥ 18).
+
+5. Check whether a string is empty or not.
+
+6. Check if a number is divisible by both 3 and 5.
+
+7. Compare two numbers and log which one is larger.
+
+8. Write an `if` block that only runs when a variable is `true`.
+
+9. Check if a user-entered password has at least 8 characters.
+
+10. Check if a given year is a leap year.
+
+---
+
+### 🔹 Nested and Multiple Conditions
+
+11. Check if a number is within a range (e.g., between 10 and 20).
+12. Write nested `if` statements to determine ticket prices based on age:
+
+    * Under 5: Free
+    * 5 to 18: Child rate
+    * 19 to 60: Adult
+    * 60+: Senior
+13. Use `if` to check if a user is logged in **and** has permission.
+14. Use logical `OR` (`||`) to check for multiple valid inputs.
+15. Write a condition to check if today is a weekday or weekend.
+
+---
+
+### 🔹 Practical `if/else` Examples
+
+16. Determine if a number is prime (basic check).
+17. Write a function to return the larger of two numbers.
+18. Determine whether a character is a vowel or consonant.
+19. Check if a given string is a palindrome.
+20. Write a price calculator with discounts for VIP members.
+
+---
+
+### 🔹 Using `switch-case`
+
+21. Use `switch` to return the day of the week from a number (0 = Sunday, ..., 6 = Saturday).
+22. Create a `switch` that returns the month name from a number.
+23. Use `switch` to display a greeting in different languages (e.g., based on language code).
+24. Use `switch` to categorize a grade (A, B, C, D, F).
+25. Use `switch` to return different messages for different error codes.
+
+---
+
+### 🔹 More Real-World Switch/If Examples
+
+26. Use `if/else` to check login credentials (username/password).
+27. Use `switch` to simulate a basic calculator (add, subtract, multiply, divide).
+28. Use `if` to validate a form field (e.g., email must include "@").
+29. Use `if` to calculate tax based on income brackets.
+30. Use `switch` to return the type of a fruit (e.g., apple = fruit, carrot = vegetable, etc.).
+
+---
+
+1.8 Iteration: `for`, `while`, `forEach` (30 Practice Questions)
+
+---
+
+### 🔹 Basic `for` Loops
+
+1. Use a `for` loop to print numbers 1 to 10.
+2. Print all even numbers between 1 and 20 using a `for` loop.
+3. Print all odd numbers between 1 and 15.
+4. Use a `for` loop to sum numbers from 1 to 100.
+5. Loop through an array of names and print each.
+
+---
+
+### 🔹 Using `while` Loops
+
+6. Use a `while` loop to print numbers from 10 down to 1.
+7. Create a countdown from 5 to 0 using `while`.
+8. Use a `while` loop to find the factorial of a number.
+9. Use `while` to keep prompting the user until they enter "exit".
+10. Use `while` to loop through an array until a specific value is found.
+
+---
+
+### 🔹 Looping with `forEach`
+
+11. Use `.forEach()` to print all elements in an array.
+12. Use `.forEach()` to create a new array with all elements doubled.
+13. Use `.forEach()` to print the index and value of each item.
+14. Use `.forEach()` to count how many numbers are above 10 in an array.
+15. Use `.forEach()` to concatenate all string elements into one.
+
+---
+
+### 🔹 Nested and Advanced Loops
+
+16. Use nested `for` loops to print a multiplication table for numbers 1 to 5.
+17. Use a loop to find the maximum number in an array.
+18. Use a loop to reverse the elements of an array.
+19. Use a `for` loop to iterate over a string and print each character.
+20. Loop through an array of objects and print a specific property.
+
+---
+
+### 🔹 Loop Control Statements
+
+21. Use `break` to exit a loop when a number greater than 50 is found.
+22. Use `continue` to skip even numbers in a loop printing 1 to 20.
+23. Use a `for` loop with a `break` to find the first negative number in an array.
+24. Use a `while` loop with a `continue` statement inside.
+25. Use nested loops with `break` to exit both loops early.
+
+---
+
+### 🔹 Practical Iteration Examples
+
+26. Sum all numbers in an array using a loop.
+27. Create a new array with only even numbers using loops.
+28. Flatten a 2D array using nested loops.
+29. Count the occurrences of a specific character in a string.
+30. Loop through an array and capitalize all string elements.
+
+---
+
+1.9 Functions and Arrow Functions (30 Practice Questions)
+
+---
+
+### 🔹 Basic Function Syntax
+
+1. Write a function that prints "Hello World" to the console.
+2. Create a function that returns the sum of two numbers.
+3. Write a function that takes a name and returns a greeting string.
+4. Create a function that calculates the area of a rectangle.
+5. Write a function that converts Celsius to Fahrenheit.
+
+---
+
+### 🔹 Functions with Parameters and Return Values
+
+6. Write a function that takes an array and returns its length.
+7. Create a function that takes two numbers and returns the larger one.
+8. Write a function that checks if a number is even or odd.
+9. Create a function that returns the factorial of a number.
+10. Write a function that takes a string and returns it reversed.
+
+---
+
+### 🔹 Arrow Functions
+
+11. Convert a traditional function that adds two numbers into an arrow function.
+12. Write an arrow function that squares a number.
+13. Write an arrow function with no parameters that returns the current date.
+14. Write an arrow function that takes two parameters and returns their product.
+15. Write an arrow function that returns the first element of an array.
+
+---
+
+### 🔹 Functions and Scope
+
+16. Write a function that declares a local variable and logs it.
+17. Demonstrate variable shadowing inside a function.
+18. Write a function inside another function (nested functions).
+19. Show how to use default parameters in a function.
+20. Write a function that uses rest parameters (`...args`) to sum an arbitrary number of numbers.
+
+---
+
+### 🔹 Practical Function Exercises
+
+21. Write a function that capitalizes the first letter of a string.
+22. Write a function that counts vowels in a string.
+23. Write a function that checks if a string is a palindrome.
+24. Create a function that merges two arrays.
+25. Write a function that filters out falsy values from an array.
+
+---
+
+### 🔹 More Arrow Functions and Callbacks
+
+26. Use `.map()` with an arrow function to double all numbers in an array.
+27. Use `.filter()` with an arrow function to get only positive numbers.
+28. Write an arrow function that returns another function (closure).
+29. Create an arrow function that logs `"Hi!"` after 1 second using `setTimeout`.
+30. Write an arrow function that sorts an array of numbers in ascending order.
+
+---
