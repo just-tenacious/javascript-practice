@@ -1,1 +1,46 @@
+1.2 Working with the DOM: Document and Window Objects (30 Practice Questions)
+
+### 🔹 Basic DOM Manipulation
+
+1. Select an element by `id` and change its text.
+2. Select an element by `class` and change its background color.
+3. Select an element using `querySelector` and hide it.
+4. Use `innerText` to update content of a paragraph.
+5. Use `innerHTML` to insert new HTML inside a div.
+6. Add a new `class` to an element using `classList.add()`.
+7. Remove a `class` from an element.
+8. Toggle a `class` using a button and `classList.toggle()`.
+9. Change the `src` attribute of an image tag using JavaScript.
+10. Dynamically create a new `div` and add it to the DOM.
+
+### 🔹 Event Handling
+
+11. Add a click event listener to a button.
+12. Add a `mouseover` event to change the color of a div.
+13. Prevent a form from submitting using `event.preventDefault()`.
+14. Use `addEventListener` to track input changes in a text box.
+15. Show an alert when a button is clicked.
+16. Use a `prompt()` to ask for a name and update a greeting.
+17. Detect when a key is pressed using `keydown` event.
+18. Build a counter with two buttons (Increment/Decrement).
+
+### 🔹 Working with Window Object
+
+19. Use `window.alert()` to display a message.
+20. Use `window.confirm()` to ask the user for confirmation.
+21. Use `window.prompt()` to get user input.
+22. Log the current window width and height.
+23. Open a new window using `window.open()`.
+24. Scroll the window to the top using `window.scrollTo()`.
+
+### 🔹 DOM Tree Navigation
+
+25. Use `parentElement` to access a parent node.
+26. Access all children of a `ul` using `children` or `childNodes`.
+27. Navigate to the next sibling using `nextElementSibling`.
+28. Remove a DOM element using `.remove()`.
+29. Replace the content of a section with `.replaceChildren()`.
+30. Append a new list item to an existing list dynamically.
+
+---
 
