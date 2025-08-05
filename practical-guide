@@ -3,7 +3,25 @@
 ### 🔹 Basic DOM Manipulation
 
 1. Select an element by `id` and change its text.
+
+<body>
+    <h1>Element by id.</h1>
+    <p>Question: Select an element by `id` and change its text.</p>
+    <span id="content">This is sample text</span>
+    <br><br>
+    <button onclick="changeText()">Click to change text</button>
+    <script>
+        let old=document.getElementById('content');
+        function changeText(){
+            old.innerHTML="This is new Text";
+        }
+    </script>
+</body>
+
 2. Select an element by `class` and change its background color.
+
+
+
 3. Select an element using `querySelector` and hide it.
 4. Use `innerText` to update content of a paragraph.
 5. Use `innerHTML` to insert new HTML inside a div.
