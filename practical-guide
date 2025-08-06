@@ -20,7 +20,19 @@
 
 2. Select an element by `class` and change its background color.
 
-
+<body>
+    <h1>Element by class.</h1>
+    <p>Question: Select an element by `class` and change its background color.</p>
+    <div class="elt" style="height: 100px; width: 100px; color: antiquewhite; background-color: brown;" onclick="changeBg()" >
+        <p>This is an element</p>
+    </div>
+    <script>
+        function changeBg(){            
+            let element=document.getElementsByClassName('elt')[0];
+            element.style.background="black";
+        }
+    </script>
+</body>
 
 3. Select an element using `querySelector` and hide it.
 4. Use `innerText` to update content of a paragraph.
