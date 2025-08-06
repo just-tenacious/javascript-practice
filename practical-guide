@@ -35,6 +35,8 @@
 </body>
 
 3. Select an element using `querySelector` and hide it.
+
+
 4. Use `innerText` to update content of a paragraph.
 5. Use `innerHTML` to insert new HTML inside a div.
 6. Add a new `class` to an element using `classList.add()`.
@@ -346,6 +348,9 @@
 ### 🔹 Built-in Objects: `String`, `Number`, `Boolean`
 
 26. Convert a string to a number using `Number()`.
+
+
+
 27. Check if a value is a number using `isNaN()`.
 28. Convert a number to a string using `.toString()`.
 29. Use `Boolean()` to check the truthiness of different values (e.g., `Boolean(0)`, `Boolean("text")`).
@@ -361,7 +366,45 @@
 
 1. Write an `if` statement to check if a number is positive.
 
+<body>
+  <div>
+    <label for="no">Enter number to check positive or not</label>
+    <input type="number" name="no" id="num" />
+    <button onclick="pos()">Check</button>
+    <p id="res"></p>
+  </div>
+  <script>
+    function pos(n=document.getElementById('num').value){
+      if(n>0){
+        console.log("Positive");
+        document.getElementsByTagName('p')[0].innerHTML="YES IT'S POSITIVE";
+      }
+    } 
+  </script>
+</body>
+
 2. Check if a number is even or odd using `if/else`.
+
+<body>
+  <div>
+    <label for="num">Enter number to check odd or even</label>
+    <input type="number" name="num" id="no">
+    <button onclick="oddeven()">Check</button>
+    <p id="res"></p>
+  </div>
+  <script>
+    function oddeven(){
+      num=document.getElementById("no").value;
+
+      if(num%2==0){
+        document.getElementById('res').innerHTML="The number is EVEN";
+      } else{
+        document.getElementById('res').innerHTML="The number is ODD";
+      }
+    }
+  </script>
+</body>
+
 
 3. Use `if/else if/else` to grade a student based on marks (e.g., A, B, C).
 
@@ -463,6 +506,7 @@
 ### 🔹 Nested and Advanced Loops
 
 16. Use nested `for` loops to print a multiplication table for numbers 1 to 5.
+
 17. Use a loop to find the maximum number in an array.
 18. Use a loop to reverse the elements of an array.
 19. Use a `for` loop to iterate over a string and print each character.
