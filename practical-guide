@@ -459,15 +459,118 @@
 
 5. Check whether a string is empty or not.
 
+<body>
+  <div>
+    <label for="str">Enter String</label>
+    <input type="text" name="str" id="str">
+    <button onclick="isEmpty()">Check Empty</button>
+    <p id="res"></p>
+  </div>
+  <script>
+    function isEmpty(s=document.getElementById("str").value){
+      if(s.trim()===""){
+        document.getElementById("res").innerText = "String is empty";
+      } else {
+        document.getElementById("res").innerText = "String is not empty";
+      }
+    }
+  </script>
+</body>
+
+
 6. Check if a number is divisible by both 3 and 5.
+
+<div>
+    <label for="divisible">Enter to see if number is divisible by both 3 and 5</label>
+    <input type="number" id="divisible" name="divisible">
+    <button onclick="checkDivisibility()">Check Divisibility</button>
+    <p id="result"></p>
+  </div>
+  <script>
+    function checkDivisibility(no=document.getElementById("divisible").value){
+      if((no%3==0) && (no%5==0)){
+        document.getElementById("result").innerText = "Number is divisible by both 3 and 5";
+      } else {
+        document.getElementById("result").innerText = "Number is not divisible by both 3 and 5";
+      }
+    }
+  </script>
 
 7. Compare two numbers and log which one is larger.
 
+<body>
+  <script>
+    function largerOf2(a, b) {
+      return a > b ? a : b;
+    }
+    console.log(largerOf2(21, 20));
+    console.log(largerOf2(30, 15)); 
+  </script>
+</body>
+
+
 8. Write an `if` block that only runs when a variable is `true`.
+
+<body>
+  <div>
+    <label for="str">Enter to see text only if it is "true"</label>
+    <input type="text" id="str" name="str">
+    <button onclick="check()">WATCH</button>
+    <p id="result"></p>
+  </div>
+  <script>
+    function check(s=document.getElementById("str").value){
+      if(s === "true"){
+        document.getElementById("result").innerText = "String is 'true'";
+      } else {
+        document.getElementById("result").innerText = "String is not 'true'";
+      }
+    }
+  </script>
+</body>
+
 
 9. Check if a user-entered password has at least 8 characters.
 
+<body>
+  <div>
+    <label for="pass">Enter password of only 8 characters</label>
+    <input type="password" name="pass" id="pass">
+    <button onclick="check()">WATCH</button>
+    <p id="result"></p>
+  </div>
+  <script>
+    function check(password=document.getElementById("pass").value){
+      if(password.length===8){
+        document.getElementById("result").innerText = "Password length is valid";
+      } else {
+        document.getElementById("result").innerText = "Password length is invalid, it should be exactly 8 characters long";
+      }
+    }
+  </script>
+</body>
+
+
 10. Check if a given year is a leap year.
+
+<body>
+  <div>
+    <label for="year">Enter year to check whether a year is leap year or not</label>
+    <input type="number" name="year" id="year">
+    <button onclick="checkLeapYear()">Check</button>
+    <p id="result"></p>
+  </div>
+  <script>
+    function checkLeapYear(y=document.getElementById('year').value){
+      if(y%4==0){
+        document.getElementById("result").innerText = "The year " + y + " is a leap year";
+      } else {
+        document.getElementById("result").innerText = "The year " + y + " is not a leap year";
+      }
+    }
+  </script>
+</body>
+
 
 ---
 
